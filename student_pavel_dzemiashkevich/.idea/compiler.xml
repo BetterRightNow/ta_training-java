@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="student_pavel_dzemiashkevich" />
+        <module name="hello-ci" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="student_pavel_dzemiashkevich" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
